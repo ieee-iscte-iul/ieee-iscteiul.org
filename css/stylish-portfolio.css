@@ -12,6 +12,8 @@ h1, h2{
     font-family: 'Montserrat', sans-serif;
 }
 
+.shadow{text-shadow: 0 1px 1px rgba(60, 60, 60, 0.61);}
+
 .row{margin: 0px;}
 
 .bot-text {

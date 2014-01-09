@@ -1,5 +1,3 @@
-/* Global Styles */
-
 html,
 body {
   height: 100%;
@@ -244,6 +242,8 @@ i.scroll {
 i.scroll:hover {
   color: #0a5175;
 }
+
+
 /* Responsive */
 
 @media (max-width: 768px) {

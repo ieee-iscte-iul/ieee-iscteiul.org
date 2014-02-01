@@ -10,6 +10,7 @@
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href="css/custom.css" rel="stylesheet">
   <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <script src="js/masonry.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -31,13 +32,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1 text-center">
-        <img src="img/home.png" alt="">
+        <i class="fa fa-home fa-4x"></i>
         <h1 class="spaced">A LITTLE ABOUT OUR BRANCH</h1>
         <hr>
         <div class="col-md-10 col-md-offset-1 text-center">
           <p>Founded in 2012, ISCTE-IUL IEEE Students Branch is an organization managed strictly by students from every engineering area in our university, supported by respected professors and highly promoted by the investigation centres inside ISCTE-IUL.</p>
           <p class="lead">But that definition is old, boring and plain. <br><br><em>So let's just try it the other way...</em></p>
-          <img src="img/rhome.png" alt="">
         </div>
       </div>
     </div>
@@ -69,27 +69,30 @@
 <!-- /Intro -->
 
 <!-- Portfolio -->
-<div class="row">
-  <div class="col-md-6" style="height:600px; background:url('img/simple.png') no-repeat center center; background-size:cover;">
-  </div>
-
-  <div class="col-md-6 text-center med-text" style="height:600px; background:#2980b9; color:white;">
+<div class="js-masonry" data-masonry-options='{ "itemSelector": ".item" }'>
+  <div class="item" style="background:#2980b9; color:white;">
+    
     <img src="img/gil.jpg" alt="Paulo Gil" class="img-circle img-thumbnail" style="margin-top:70px;">
     <h3>It all started back in 2012.<br> With Paulo Gil's Dream...<br><br><em>Turning a bunch of rebels into engineers.</em></h3>
   </div>
 
-</div>
-<!-- 
-<div class="row">
-  <div class="col-md-6 text-center" style="height:600px; background:#f17288;">
-    <img src="img/wie.png" style="margin:80px auto;" class="img-responsive">
+  <div class="item" style="background:url('img/simple.png') no-repeat center center; background-size:cover;">
+    lksemfls eslkfes fmesf elkf ewfe wfwejkf nef
   </div>
 
-  <div class="col-md-6 text-center med-text" style="height:600px; background:#2ecc71; color:white;">
+  <div class="item" style="background:#2ecc71; color:white;">
+    
     <h3>It all started back in 2012.<br> With Paulo Gil's Dream...<br><br><em>Turning a bunch of rebels into engineers.</em></h3>
   </div>
 
+  <div class="item" style="background:#f17288;">
+    <img src="img/wie.png" style="margin:80px auto;" class="img-responsive">
+
+  </div>
+  
 </div>
+
+
 
 <div class="row">
   <div class="col-md-6" style="height:600px; background:url('img/journey.jpg') no-repeat center center; background-size:cover;color:white;">
@@ -102,7 +105,7 @@
 
 </div>
 
-</div> -->
+</div>
 
 
 
@@ -142,9 +145,6 @@
 </footer>
 <!-- /Footer -->
 
-<!-- JavaScript -->
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/bootstrap.js"></script>
 <script>
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {

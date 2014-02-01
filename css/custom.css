@@ -214,12 +214,6 @@ i.service-icon {
   margin: 10px;
 }
 
-/* Map */
-
-.map {
-  height: 500px;
-}
-
 /* Footer */
 
 footer {
@@ -256,10 +250,6 @@ i.scroll:hover {
 	background: url(../img/bridge.jpg) no-repeat center center scroll; 
   }
 
-  .map {
-	height: 75%;
-  }
-
 }
 
 
@@ -267,7 +257,8 @@ i.scroll:hover {
   position: relative;
   float: left;
   width: 50%;
-  
+  color: #fff;
+  text-align: center;
 }
 
 .element {
@@ -296,8 +287,6 @@ i.scroll:hover {
   -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s ease-out; -ms-transition: all 0.15s ease-out; -o-transition: all 0.15s ease-out; transition: all 0.15s ease-out;
 }
 
-.item.w2 span { background-size: 200%; }
-
 .item:hover span { opacity: 1; bottom: 0; }
 .item span h1 { color: #98999b; font-style: normal; font-weight: normal; font-family: 'extrabold'; font-size: 30px; letter-spacing: 0; text-transform: uppercase; margin: 20px 0 0 0; }
 
@@ -308,8 +297,8 @@ i.scroll:hover {
 
 
 
-@media (max-width: 700px) { .element { width: 100%; } .item.w2 { width: 100%; } }
-@media (min-width: 701px) { .element { width: 50%; } .item.w2 { width: 50%; } }
+@media (max-width: 700px) { .item { width: 100%; } }
+@media (min-width: 701px) { .item { width: 50%; } }
 
 
 .item.w2 { width: 50%; }

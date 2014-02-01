@@ -138,15 +138,14 @@ h1, h2{
   background-size: cover;
 }
 
-/* Intro */
-
 .intro {
   padding: 50px 0;
   color: #999;
+  min-height: 250px;
 }
 
 .spaced{
-letter-spacing: 10px;
+letter-spacing: 7px;
 }
 
 /* Services */
